@@ -1,0 +1,40 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "jose",
+            "email": "jose@hotmail.com",
+            "password": "2801",
+            "role": "A"
+        },
+        {
+            "id": 2,
+            "name": "juan",
+            "email": "u2@hotmail.com",
+            "password": "abcd",
+            "role": "U"
+        },
+        {
+            "id": 3,
+            "name": "esteban",
+            "email": "u3@hotmail.com",
+            "password": "aeio",
+            "role": "U"
+        },
+        {
+            "id": 4,
+            "name": "mateo",
+            "email": "u4@hotmail.com",
+            "password": "5678",
+            "role": "U"
+        },
+        {
+            "id": 5,
+            "name": "hanner",
+            "email": "u5@hotmail.com",
+            "password": "team",
+            "role": "U"
+        }
+    ]
+}
+
