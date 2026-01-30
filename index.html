@@ -1,12 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login JS</title>
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
+
 <body>
-    
-    <script type="module" src="./js/app.js"></script>
+
+    <div class="login-container">
+        <h2 id="title">Login</h2>
+
+        <input type="text" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Contraseña" required>
+
+        <label>
+            <input type="checkbox" id="showPassword">
+            Mostrar contraseña
+        </label>
+
+        <button id="loginBtn">Ingresar</button>
+        <button id="goRegisterBtn">Registrarse</button>
+
+        <p id="message"></p>
+    </div>
+
+    <div id="app">
+
+    </div>
+
+
+    <script type="module" src="./js/auth.js"></script>
+
 </body>
+
 </html>
