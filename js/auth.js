@@ -1,6 +1,5 @@
-import { loginBtn, passwordInput, emailInput, message } from "./main.js";
+import { loginBtn, url, passwordInput, emailInput, message } from "./main.js";
 
-const url = "http://localhost:3000/users";
 
 // REGISTER BOTTON
 if (goRegisterBtn) {
